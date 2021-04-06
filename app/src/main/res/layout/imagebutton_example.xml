@@ -3,8 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp">
+    android:padding="@dimen/largePadding">
 
-    
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/rounded_grey_background"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:foreground="?selectableItemBackground"
+        android:visibility="visible"
+        />
 
 </LinearLayout>

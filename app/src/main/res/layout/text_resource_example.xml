@@ -12,7 +12,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="30sp"
-        android:text="@string/welcome_message"
+        android:text="@string/welcome_name"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="@color/default_text_color"
+        android:textStyle="italic"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">More Views &amp; Layouts Spr21</string>
-    <string name="welcome_name">Hello World</string>
+    <string name="welcome_name">Hola Mundo!</string>
     <string name="welcome_eric">Hello Eric</string>
-
 </resources>
+
